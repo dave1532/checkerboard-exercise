@@ -8,9 +8,9 @@ for (var i = 0; i < 63; i++){
   tiles[i].style.float='left';
   tiles[i].style.paddingBottom = '11.1%';
   if ((i % 2)===0) {
-    tiles[i].style.backgroundColor = 'black';
+    tiles[i].style.backgroundColor = 'rgb(225 ,' + 52+(i) + ',0 )';
   }else{
-    tiles[i].style.backgroundColor = 'red';
+    tiles[i].style.backgroundColor = 'rgb(0 , '+(75+(i*12))+", " + (169+(10*i)) + ")";
   }
    body.appendChild(tiles[i]);
-  }
+ }
